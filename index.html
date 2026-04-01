@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MealFinder</h1>
+        
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search for recipes (e.g., pasta)...">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="controls">
+            <select id="filterDiet">
+                <option value="">All Diets</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="vegan">Vegan</option>
+                <option value="gluten free">Gluten Free</option>
+            </select>
+
+            <select id="sortOption">
+                <option value="none">Sort By</option>
+                <option value="time">Fastest First</option>
+                <option value="health">Health Score</option>
+            </select>
+        </div>
+
+        <div id="recipeResults" class="recipe-grid">
+            </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# 🍽️ MealMate — Recipe & Meal Finder
+# 🍽️ MealFinder — Recipe & Meal Finder
 
 Ever opened your fridge, stared at it for 5 minutes, and still had no idea what to cook? That's exactly why I built this.
 
@@ -18,10 +18,6 @@ Found something you like? Hit the heart button and it gets saved to your Favouri
 
 ## 🔌 API Used
 
-**TheMealDB**
-- Website: [https://www.themealdb.com/api.php](https://www.themealdb.com/api.php)
-- No API key needed. No signup. Just fetch and go.
-- Free forever for the endpoints used in this project.
 
 Here are the specific endpoints the app uses:
 
@@ -114,5 +110,7 @@ That's it. The app opens in your browser and works immediately.
 | 4 — Final Submission | Cleaned up code, deployed, updated README | 10th April |
 
 ---
+
+
 
 
